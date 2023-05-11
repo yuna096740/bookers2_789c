@@ -24,7 +24,7 @@
             <% end %>
           <% else %>
             <%= link_to book_favorites_path(book), class:"text-primary", method: :post do %>
-              <i class="fas fa-heart"></i><%= book.favorite.count %>
+              <i class="fas fa-heartbeat"></i><%= book.favorite.count %>
             <% end %>
           <% end %>
         </td>
