@@ -42,7 +42,8 @@ class BooksController < ApplicationController
     @book.destroy
     redirect_to books_path, notice: "You have destroyed book successfully."
   end
-
+  
+ 
   private
 
   def book_params
